@@ -59,6 +59,6 @@ function getLocalIp() {
       }
   }
 }
-app.listen(process.env.PORT || 3000, function () {
-  console.log(`server Started on ${getLocalIp()} port ${process.env.PORT || 3000} `);
+app.listen(process.env.PORT || 4000, function () {
+  console.log(`server Started on ${getLocalIp()} port ${process.env.PORT || 4000} `);
 });
